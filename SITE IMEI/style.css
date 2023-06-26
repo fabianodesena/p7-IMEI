@@ -1,0 +1,146 @@
+/* estilo da fonte do Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@800&display=swap');
+
+  
+/* estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to left, #673491, #137dbf);
+  }
+  .logo {
+    max-width: 150px;
+    max-height: 100px;
+    margin: 20px;
+  }
+  /* estilo do  fundo */
+  .fundo {
+    background-image: url("graph.svg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  /* estilo do container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10vh 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  
+  /* estilo do texto */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    font-size: 1.1em;
+  }
+  
+  /* estilo para dispositivos móveis */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 50px 10px;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    
+    p {
+      font-size: 1em;
+      line-height: 1.3;
+    }
+    
+    li {
+      font-size: 1em;
+    }
+  }
+  
+  /* estilo das imagens */
+img {
+    height: auto;
+  }
+  
+ p, li {
+    font-family: 'Titillium Web', sans-serif;
+  }
+.descricao {
+  margin: 0px;
+}
+.lista {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0 0; /* adiciona um padding no topo da lista */
+    text-align: left;
+    display: block;
+}
+.lista img {
+    max-height: 30px;
+    max-width: 30px;
+    margin-right: 10px;
+}
+.lista li{
+    border-bottom: 2px solid #ffffff;
+    padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.botao {
+    width: auto;
+    height: 45px;
+    background-image: linear-gradient(to left, #da1a5e, #f89621);
+    border: 0px;
+    border-radius: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    padding: 1% 4% 1% 4%;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.botao:hover {
+    color: #ffffff;
+    background-image: linear-gradient(to left, hsla(0, 0%, 100%, 0), #ffffff00);
+    border: 3px solid #f89621;
+    cursor: pointer;
+    background-color: #ffffff00;
+}
+.creditos{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: rgb(194, 194, 194);
+  justify-content: center;
+  gap: 5vh;
+}
+#aluno {
+  font-size: 1em;
+}
+.logosenai {
+  max-width: 30vh;
+  height: auto;
+}
